@@ -14,9 +14,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <head>
+          <link rel="icon" href="./images/logo.png" />
+        </head>
+        <div className='flex flex-col '>
         <Nav/>
         <HeroSection/>
         {children}
+        </div>
       </body>
 
     </html>
