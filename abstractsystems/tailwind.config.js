@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,8 +15,13 @@ module.exports = {
       },
       
     },
+    colors: {
+      'backgroun-primary':"#2E2E2E",
+      'backgroun-secondary':"#D9D9D9",
+    },
     fontFamily: {
       sans: ['Barlow Condensed', 'sans-serif'],
+      sarpanch: ['Sarpanch'],
     },
     letterSpacing: {
       tightest: '-.075em',
