@@ -1,7 +1,7 @@
 
 const HeroSection = () => {
   return (
-    <div>
+    <div >
         <h1>
             Hello 
 
