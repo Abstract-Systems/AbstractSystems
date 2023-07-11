@@ -7,6 +7,7 @@ import HeroSection from '@components/HeroSection'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body>
         <head>
           <title>Abstract Systems</title>
