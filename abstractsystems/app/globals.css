@@ -33,3 +33,12 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
   }
 }
+@components{
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Adjust the value as needed */
+  }
+  
+}
