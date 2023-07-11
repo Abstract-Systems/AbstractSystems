@@ -1,6 +1,5 @@
 import './globals.css'
 import Nav from '@components/nav'
-import HeroSection from '@components/HeroSection'
 
 
 

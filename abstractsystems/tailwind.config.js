@@ -12,16 +12,21 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      fontFamily: {
-        'sans': ['ui-sans-serif', 'system-ui'],
-        'serif': ['ui-serif', 'Georgia'],
-        'mono': ['ui-monospace', 'SFMono-Regular'],
-        'display': ['Oswald'],
-        'body': ['"Barlow Condensed"'],
-      },
       
     },
-    
+    fontFamily: {
+      sans: ['Barlow Condensed', 'sans-serif'],
+    },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.1em',
+      widest: '.15em',
+    }
   },
   plugins: [],
 }
