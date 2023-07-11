@@ -1,5 +1,6 @@
 import './globals.css'
 import Nav from '@components/nav'
+import HeroSection from '@components/HeroSection'
 
 
 
@@ -14,8 +15,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Nav/>
+        <HeroSection/>
         {children}
       </body>
+
     </html>
   )
 }
