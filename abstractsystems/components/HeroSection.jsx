@@ -1,5 +1,4 @@
 import React from 'react';
-import computerscreen from '../images/computerscreen.png';
 
 export default function HeroSection() {
   return (
@@ -20,7 +19,7 @@ export default function HeroSection() {
           </p>
         </div>
         <div className="w-full md:w-1/2 max-w-[500px] mt-8">
-          <img className="w-full h-auto rounded-[50px]" src={computerscreen} alt="abstract systems" />
+          <img className="w-full h-auto rounded-[50px]" src="./images/computerscreen.png" alt="abstract systems" />
         </div>
       </div>
       <div className="flex flex-col items-center mt-4">
