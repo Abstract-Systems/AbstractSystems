@@ -6,6 +6,7 @@ import Footer from '@components/Footer'
 import ContactForm from '@components/ContactForm'
 import Navbar from '@components/Navbar'
 import AboutSection from '@components/AboutSection'
+import ServiceLayout from '@components/ServiceLayout'
 
 
 export const metadata = {
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <div className='flex flex-col '>
         <Navbar/>
         <HeroSection/>
+        <ServiceLayout/>
         <AboutSection/>
         {children}
         <ContactForm/>

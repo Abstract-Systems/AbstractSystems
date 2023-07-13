@@ -1,4 +1,3 @@
-import web from "../images/web.png";
 function Service(props) {
   return (
     <div className="w-full bg-secondary rounded-[20px]">
@@ -20,7 +19,7 @@ function Service(props) {
         </div>
         <div className="w-1/2">
           {/* Right side image */}
-          <img src={web} alt="Image" className="w-full h-full" />
+          <img src={props.r_image} alt="Image" className="w-full h-full" />
         </div>
       </div>
     </div>
