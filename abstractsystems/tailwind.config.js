@@ -21,7 +21,7 @@ module.exports = {
       },
       colors: {
         'backgroun-primary':"#2E2E2E",
-        'backgroun-secondary':"#D9D9D9",
+        'backgroun-secondary':"#4E4E4E",
       },
     },
     

@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '@components/Footer'
 import ContactForm from '@components/ContactForm'
+import Navbar from '@components/Navbar'
 
 
 export const metadata = {
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
           <Link rel="icon" href="./images/logo.png" />
         </Head>
         <div className='flex flex-col '>
-        <Nav/>
+        <Navbar/>
         <HeroSection/>
         {children}
         <ContactForm/>
