@@ -1,8 +1,7 @@
 'use client'
 import React, { useState } from 'react';
-import logo from '../images/abstract-systems-logo.jpg';
 import OldButton from './OldButton';
-
+import Image from 'next/image';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -15,7 +14,7 @@ const Navbar = () => {
       <div className='max-w-screen-xl flex items-center justify-between mx-auto'>
         <div className='px-2'>
           <a href="#">
-            <img className='h-12 rounded-[50px]' src="./images/logo.png" alt="Abstract Systems" />
+            <Image src="/images/logo.png" height={50} width={50} alt="Abstract Systems" />
           </a>
         </div>
 
@@ -65,7 +64,7 @@ const Navbar = () => {
 
       {/* Dropdown Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-secondary w-full">
+        <div className="md:hidden bg-backgroun-secondary w-full">
           <ul className='flex flex-col list-none items-center space-y-4 py-4'>
             <li className='py-2 px-4 text-white font-barlow-condensed tracking-widest'>Home</li>
             <li className='py-2 px-4 text-white font-barlow-condensed tracking-widest'>Services</li>

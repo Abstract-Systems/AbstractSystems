@@ -24,4 +24,11 @@ body {
     background-color:#2E2E2E;
 
 }
-
+@font-face {
+  font-family: 'Barlow Condensed', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&display=swap');
+}
+@font-face {
+  font-family: 'Sarpanch', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Sarpanch&display=swap');
+}
