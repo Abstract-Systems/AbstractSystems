@@ -16,12 +16,15 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        sans: ['Barlow Condensed'],
-        sarpanch: ['Sarpanch'],
+        'barlow-condensed': ['Barlow Condensed'],
+        'sarpanch': ['Sarpanch'],
       },
       colors: {
         'backgroun-primary':"#2E2E2E",
         'backgroun-secondary':"#4E4E4E",
+      },
+      boxShadow: {
+        'btn':'1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px',
       },
     },
     
