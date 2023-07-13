@@ -22,7 +22,7 @@ export default function HeroSection() {
           <img className="w-full h-auto rounded-[50px]" src="./images/computerscreen.png" alt="abstract systems" />
         </div>
       </div>
-      <div className="flex flex-col items-center mt-4">
+      <div className="flex flex-col items-center mt-4 mb-16">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6 animate-bounce text-pink-500"
