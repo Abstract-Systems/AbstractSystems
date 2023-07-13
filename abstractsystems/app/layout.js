@@ -7,6 +7,7 @@ import ContactForm from '@components/ContactForm'
 import Navbar from '@components/Navbar'
 import AboutSection from '@components/AboutSection'
 import ServiceLayout from '@components/ServiceLayout'
+import Projectlayout from '@components/Projectlayout'
 
 
 export const metadata = {
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         <HeroSection/>
         <ServiceLayout/>
+        <Projectlayout/>
         <AboutSection/>
         {children}
         <ContactForm/>
