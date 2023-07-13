@@ -3,6 +3,7 @@ import Nav from '@components/nav'
 import HeroSection from '@components/HeroSection'
 import Head from 'next/head'
 import Link from 'next/link'
+import Footer from '@components/Footer'
 
 
 export const metadata = {
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <HeroSection/>
         {children}
         </div>
+        <Footer/>
       </body>
 
     </html>
