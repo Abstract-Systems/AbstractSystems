@@ -4,6 +4,7 @@ import HeroSection from '@components/HeroSection'
 import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '@components/Footer'
+import ContactForm from '@components/ContactForm'
 
 
 export const metadata = {
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Nav/>
         <HeroSection/>
         {children}
+        <ContactForm/>
         </div>
         <Footer/>
       </body>
