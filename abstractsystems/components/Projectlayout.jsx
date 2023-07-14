@@ -39,7 +39,7 @@ const projects = [
 const Projectlayout = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-        <h1 className="text-white text-3xl font-bold text-center px-5 py-3 font-barlow-condensed">
+        <h1 className="text-white text-4xl font-bold text-center px-5 py-3 font-sarpanch">
             Projects
         </h1>
         <p className='text-lg text-yellow-50 font-bold text-center px-5 py-3 font-barlow-condensed'>Discover the art of software craftsmanship in our project showcase. Abstract Systems</p>

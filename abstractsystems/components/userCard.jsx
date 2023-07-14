@@ -10,9 +10,9 @@ const UserCard = (props) => {
           className="w-40 h-40 rounded-full border-10 border-yellow-500"
         />
         <div className="text-center mt-4">
-          <h2 className="text-xl font-bold font-barlow-condensed tracking-widest text-[#F0F0F0]">{props.name}</h2>
+          <h2 className="text-2xl font-bold font-barlow-condensed tracking-wide text-[#F0F0F0]">{props.name}</h2>
           <p className="text-lg text-gray-500 font-barlow-condensed">{props.title}</p>
-          <p className="mt-4 text-[#F0F0F0]">{props.desc}</p>
+          <p className="mt-4 font-barlow-condensed text-xl text-[#F0F0F0]">{props.desc}</p>
         </div>
         <div className="flex items-center mt-6 bg-[#D9D9D9] rounded-lg p-2">
           <img src="./images/gmail.png" alt="" className="w-6 h-6" />
