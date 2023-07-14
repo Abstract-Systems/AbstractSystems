@@ -28,15 +28,25 @@ export default function RootLayout({ children }) {
   
           <Link rel="icon" href="./images/logo.png" />
         </Head>
-        <div className='flex flex-col '>
-        <Navbar/>
-        <HeroSection/>
-        <ServiceLayout/>
-        <Projectlayout/>
-        <AboutSection/>
-        {children}
-        <ContactForm/>
-        </div>
+        <div>
+      <Navbar />
+      <div id="heroSection">
+        <HeroSection />
+      </div>
+      <div id="serviceSection">
+        <ServiceLayout />
+      </div>
+      <div id="projectsSection">
+        <Projectlayout />
+      </div>
+      <div id="aboutSection">
+        <AboutSection />
+      </div>
+      {/* Other components and content */}
+      <div id="contactSection">
+        <ContactForm />
+      </div>
+    </div>
         <Footer/>
       </body>
 
