@@ -1,5 +1,6 @@
 import React from 'react';
 import UserCard from './userCard';
+import { Carousel } from './CaroselCard';
 
 const users = [
   {
@@ -28,6 +29,8 @@ const users = [
 function AboutSection() {
   return (
     <div className="mx-auto md:flex justify-evenly items-center sm:flex-wrap p-5">
+      <Carousel>
+
       {users.map((user, index) => (
         <React.Fragment key={index}>
           <UserCard
@@ -36,7 +39,7 @@ function AboutSection() {
             desc={user.desc}
             mail={user.mail}
             img={user.img}
-          />
+            />
           {index !== users.length - 1 && (
             <div className="my-8 md:my-8 mx-8">
               {/* Add increased vertical spacing between the current card and the next card */}
@@ -44,6 +47,7 @@ function AboutSection() {
           )}
         </React.Fragment>
       ))}
+      </Carousel>
     </div>
   );
 }
