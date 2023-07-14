@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='h-16  bg-backgroun-secondary drop-shadow-lg fixed w-full z-20 top-0 left-0 border-b'>
+    <nav className='h-16 border-none bg-backgroun-secondary drop-shadow-lg fixed w-full z-20 top-0 left-0 border-b'>
       <div className='max-w-screen-xl flex items-center justify-between mx-auto'>
         <div className='px-2 transition-opacity duration-300'>
           <a href='#'>
@@ -37,25 +37,25 @@ const Navbar = () => {
           <div className={`p-3 hidden md:flex md:w-auto transition-all duration-300 ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}>
             <ul className='flex list-none items-center space-x-6'>
               <li
-                className='py-2 px-4 text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
+                className='py-2 px-4 text-xl text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
                 onClick={() => handleNavItemClick('heroSection')}
               >
                 Home
               </li>
               <li
-                className='py-2 px-4 text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
+                className='py-2 px-4 text-xl text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
                 onClick={() => handleNavItemClick('serviceSection')}
               >
                 Services
               </li>
               <li
-                className='py-2 px-4 text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
+                className='py-2 px-4 text-xl text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
                 onClick={() => handleNavItemClick('projectsSection')}
               >
                 Projects
               </li>
               <li
-                className='py-2 px-4 text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
+                className='py-2 px-4 text-xl text-white font-barlow-condensed tracking-widest cursor-pointer transition-colors duration-300 hover:text-gray-300'
                 onClick={() => handleNavItemClick('aboutSection')}
               >
                 About

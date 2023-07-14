@@ -32,7 +32,7 @@ const services = [
 const ServiceLayout = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h1 className="text-white text-3xl font-bold text-center px-5 py-3 font-barlow-condensed">
+      <h1 className="text-white text-4xl font-bold text-center px-5 py-3 font-sarpanch">
             Services
           </h1>
       <div className="w-full md:w-[50%]  p-10 bg-backgroun-primary rounded-l-lg">

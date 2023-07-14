@@ -1,21 +1,22 @@
 import React from 'react';
 
-
 const UserCard = (props) => {
   return (
-    <div className="bg-[#42433E] rounded-lg p-4 inline-block shadow-lg">
+    <div className="bg-[#42433E] rounded-lg p-4 shadow-lg">
       <div className="flex flex-col items-center">
         <img
           src={props.img}
           alt="Profile"
           className="w-40 h-40 rounded-full border-10 border-yellow-500"
         />
-        <h2 className="mt-4 text-xl font-bold font-barlow-condensed tracking-widest text-[#F0F0F0]">{props.name}</h2>
-        <p className="text-lg text-gray-500 font-barlow-condensed">{props.title}</p>
-        <p className="mt-4 w-60 text-center text-[#F0F0F0]">{props.desc}</p>
+        <div className="text-center mt-4">
+          <h2 className="text-2xl font-bold font-barlow-condensed tracking-wide text-[#F0F0F0]">{props.name}</h2>
+          <p className="text-lg text-gray-500 font-barlow-condensed">{props.title}</p>
+          <p className="mt-4 font-barlow-condensed text-xl text-[#F0F0F0]">{props.desc}</p>
+        </div>
         <div className="flex items-center mt-6 bg-[#D9D9D9] rounded-lg p-2">
           <img src="./images/gmail.png" alt="" className="w-6 h-6" />
-          <span className="text-[#434343] px-5">{props.mail}</span>
+          <span className="text-[#434343] ml-2">{props.mail}</span>
         </div>
         <div className="flex justify-end mt-4 space-x-2">
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">

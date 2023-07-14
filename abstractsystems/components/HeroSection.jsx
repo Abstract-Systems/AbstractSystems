@@ -3,7 +3,7 @@ import MainText from './IType';
 
 export default function HeroSection() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen relative">
       <div className="w-[90%] mx-auto flex flex-col md:flex-row justify-between items-center py-12 pl-20 pr-20">
         <div className="text-center">
           <h1 className="text-6xl font-sarpanch text-white typewriter leading-tight tracking-wide h-16">
@@ -34,6 +34,9 @@ export default function HeroSection() {
         </svg>
         <p className="text-pink-500 mt-1">Scroll down</p>
       </div>
+      <div className="blob top-left"></div>
+<div className="blob bottom-right"></div>
+
     </div>
   );
 }
