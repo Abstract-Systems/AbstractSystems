@@ -28,8 +28,8 @@ const projects = [
     },
     {
         projectnumber: "04",
-        title: "Contact Form in react",
-        desc: "Spotify CLONE is bla bla A multi-step contact form made in ReactJS is a user-friendly and organized way to gather information from users in a systematic manner. Instead of overwhelming users with a long and intimidating form, it breaks down the process into multiple steps or sections, guiding users through each step until the completion of the form",
+        title: "Contact Form",
+        desc: "A multi-step contact form made in ReactJS is a user-friendly and organized way to gather information from users in a systematic manner. Instead of overwhelming users with a long and intimidating form, it breaks down the process into multiple steps or sections, guiding users through each step until the completion of the form",
         r_image: "./images/react-form.jpeg",
         link: "https://multi-step-form-phi-woad.vercel.app/",
     },
@@ -45,7 +45,7 @@ const Projectlayout = () => {
         <p className='text-lg text-yellow-50 font-bold text-center px-5 py-3 font-barlow-condensed'>Discover the art of software craftsmanship in our project showcase. Abstract Systems</p>
         <div className="w-full md:w-[70%]  p-10 bg-backgroun-primary rounded-l-lg">
             <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md rounded-lg p-6 mb-5">
-                <div className="flex flex-col gap-8 mt-8 ">
+                <div className="flex flex-col gap-8 mt-8">
                     {projects.map((project, index) => (
                         <div key={index}>
                             <Project

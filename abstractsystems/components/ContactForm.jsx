@@ -1,40 +1,92 @@
+"use client"
 import React from 'react';
+import { FaInstagram, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 const ContactForm = () => {
+  const [email, setEmail] = React.useState("");
+  const [subject, setSubject] = React.useState("");
+  const [message, setMessage] = React.useState("");
+  const handleClick = () => {
+    console.log('Button clicked');
+    console.log(email, subject, message);
+  }
+
+
   return (
-    <div className="flex items-center justify-center h-screen">
-      <form className="w-100 bg-white rounded-lg shadow-md p-6 space-y-6">
-        <h2 className="text-2xl font-semibold text-gray-800">Contact Us</h2>
-        <div>
-          <label className="text-gray-700 font-medium">Name</label>
-          <input
-            className="w-full py-2 px-4 bg-gray-100 text-gray-800 border border-gray-300 rounded focus:outline-none focus:border-primary"
-            type="text"
-            placeholder="Name"
-          />
+    <section className="bg-primary m-20">
+      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <div className="flex items-center mb-4 flex-col ">
+          <h2 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+            Contact Us
+          </h2>
+          <div className="flex ml-4 py-10">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
+            >
+              <FaInstagram className='mx-10' size={50} />
+            </a>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
+            >
+              <FaGithub className='mx-10' size={50} />
+            </a>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
+            >
+              <FaLinkedin className='mx-10' size={50} />
+            </a>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
+            >
+              <FaFacebook className='mx-10' size={50} />
+            </a>
+          </div>
         </div>
+        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl font-barlow-condensed">
+          Reach us on any of the following Social Media. Or Maybe leave a message down there.
+        </p>
+        <form action="#" className="space-y-8">
         <div>
-          <label className="text-gray-700 font-medium">Email</label>
-          <input
-            className="w-full py-2 px-4 bg-gray-100 text-gray-800 border border-gray-300 rounded focus:outline-none focus:border-primary"
-            type="email"
-            placeholder="Email"
-          />
-        </div>
-        <div>
-          <label className="text-gray-700 font-medium">Message</label>
-          <textarea
-            className="w-full py-2 px-4 bg-gray-100 text-gray-800 border border-gray-300 rounded focus:outline-none focus:border-primary"
-            placeholder="Your Message"
-          />
-        </div>
-        <div>
-          <button className="w-full py-2 px-4 bg-primary text-white font-medium rounded hover:bg-primary-dark focus:outline-none focus:bg-primary-dark">
-            Submit
+                <label htmlFor="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                <input onChange={ ()=>{
+                  setEmail(event.target.value);
+                }} type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required/>
+            </div>
+            <div>
+                <label htmlFor="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                <input onChange={()=>{
+                  setSubject(event.target.value);
+                }} type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required/>
+            </div>
+            <div class="sm:col-span-2">
+                <label htmlFor="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                <textarea onChange={()=>{
+                  setMessage(event.target.value);
+                }} id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+            </div>
+
+          <button
+            type="submit"
+            onClick={handleClick}
+            className="py-3 bg-slate-700 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-slate-800 transition ease-in-out duration-200 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+          >
+            Send message
           </button>
-        </div>
-      </form>
-    </div>
+        </form>
+      </div>
+    </section>
   );
 };
 
