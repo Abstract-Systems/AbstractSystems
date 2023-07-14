@@ -1,18 +1,13 @@
 import React from 'react';
+import MainText from './IType';
 
 export default function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="w-[90%] mx-auto flex flex-col md:flex-row justify-between items-center py-12 pl-20 pr-20">
-        <div className="text-center ">
-          <h1 className="text-6xl font-sarpanch text-white typewriter leading-tight tracking-wide">
-            DESIGN
-          </h1>
-          <h1 className="text-6xl font-sarpanch text-white typewriter leading-tight tracking-wide">
-            CODE
-          </h1>
-          <h1 className="text-6xl font-sarpanch text-white typewriter leading-tight tracking-wide mt-2">
-            LAUNCH
+        <div className="text-center">
+          <h1 className="text-6xl font-sarpanch text-white typewriter leading-tight tracking-wide h-16">
+            <MainText />
           </h1>
           <p className="text-2xl font-barlow-condensed text-white mt-8">
             We believe in harnessing the power of abstraction to bring your digital dreams to life.

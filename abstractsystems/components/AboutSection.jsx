@@ -15,7 +15,7 @@ const users = [
     title: "Designer & Front End Engineer",
     desc: "He is the only guy who uses malt (As a beer) and uses Code to protect himself from danger. Guy uses Dijkstra to find a path.",
     mail: "hasaan@gmail.com",
-    img: "./images/profile.png"
+    img: "./images/hasaan.jpg"
   },
   {
     name: "Haider",
@@ -40,11 +40,6 @@ function AboutSection() {
             mail={user.mail}
             img={user.img}
             />
-          {index !== users.length - 1 && (
-            <div className="my-8 md:my-8 mx-8">
-              {/* Add increased vertical spacing between the current card and the next card */}
-            </div>
-          )}
         </React.Fragment>
       ))}
       </Carousel>
