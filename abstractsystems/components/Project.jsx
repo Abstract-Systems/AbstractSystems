@@ -9,7 +9,7 @@ const Project = (props) => {
             {props.projectnumber}
           </h1>
           <a href={props.link} target="_blank" rel="noopener noreferrer">
-            <button className="bg-btn-primary rounded-full p-2 w-32 mx-auto">
+            <button className="bg-pink-600 rounded-full p-2 w-32 mx-auto">
               <span className='text-sm'>Visit</span>
             </button>
           </a>
