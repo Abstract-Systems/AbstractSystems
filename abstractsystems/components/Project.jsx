@@ -3,7 +3,7 @@ import React from 'react'
 const Project = (props) => {
   return (
     <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md rounded-lg p-6">
-        <div className="flex flex-col md:flex-row md:items-center">
+        <div className="flex flex-col md:flex-row md:items-center border-b-white">
             <div className="md:mr-4">
                 <h1 className="text-white text-3xl font-bold text-center px-5 py-3 font-barlow-condensed tracking-wider">
                     {props.projectnumber}

@@ -1,13 +1,14 @@
-"use client"
-import React ,{useState}from "react";
-import "./CaroselCardCss.scss"
-
+'use client'
+import React, { useState } from "react";
+import "./CaroselCardCss.scss";
 import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
 
 const MAX_VISIBILITY = 3;
+
 export const Carousel = ({ children }) => {
     const [active, setActive] = useState(2);
     const count = React.Children.count(children);
+
     return (
         <div className='carousel'>
             {active > 0 && <button className='nav left' onClick={() => setActive(i => i - 1)}><TiChevronLeftOutline /></button>}
@@ -28,4 +29,3 @@ export const Carousel = ({ children }) => {
         </div>
     );
 };
-
