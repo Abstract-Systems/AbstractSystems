@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='h-16  bg-backgroun-secondary drop-shadow-lg fixed w-full z-20 top-0 left-0 border-b'>
+    <nav className='h-16 border-none bg-backgroun-secondary drop-shadow-lg fixed w-full z-20 top-0 left-0 border-b'>
       <div className='max-w-screen-xl flex items-center justify-between mx-auto'>
         <div className='px-2 transition-opacity duration-300'>
           <a href='#'>
