@@ -1,7 +1,6 @@
 import React from "react";
 import Service from "./Service";
 
-
 const services = [
   {
     title: "Web Development",
@@ -30,7 +29,6 @@ const services = [
   // Add more service objects as needed
 ];
 
-
 const ServiceLayout = () => {
   return (
     <div className="flex flex-col items-center justify-center">
@@ -41,7 +39,7 @@ const ServiceLayout = () => {
         <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md rounded-lg p-6 mb-5 md:max-w">
           <div className="flex flex-wrap justify-center gap-8 mt-8 rounded-2xl items-center">
             {services.map((service, index) => (
-              <div key={index}>
+              <div key={index} className="hover:scale-105">
                 <Service
                   title={service.title}
                   desc={service.desc}
