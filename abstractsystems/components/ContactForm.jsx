@@ -29,7 +29,7 @@ const ContactForm = () => {
             </a>
             <a
               href="https://github.com"
-              target="_blank"
+              target="https://github.com/orgs/Abstract-Systems/"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
             >
@@ -37,7 +37,7 @@ const ContactForm = () => {
             </a>
             <a
               href="https://www.linkedin.com"
-              target="_blank"
+              target="https://www.linkedin.com/company/abstract-systems-1/"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
             >
