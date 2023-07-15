@@ -9,7 +9,7 @@ const users = [
     title: "Full Stack Dev",
     desc: "He is the only guy who uses malt (As a beer) and uses Code to protect himself from danger. Guy uses Dijkstra to find a path.",
     mail: "muhammadmujtaba150@gmail.com",
-    img: "./images/mujtaba.png",
+    img: "./images/mujtaba.jpg",
     linkedin: "https://www.linkedin.com/in/muhammad-mujtaba-890b7a261/",
     twitter: "#",
     github: "https://github.com/mujtaba-io",
@@ -41,8 +41,8 @@ const users = [
 
 function AboutSection() {
   return (
-    <div className="mx-auto md:flex justify-evenly items-center p-5">
-      <Carousel>
+    <div className="mx-auto md:flex justify-center items-center p-5">
+      <Carousel className="w-full md:w-auto overflow-hidden">
         {users.map((user, index) => (
           <React.Fragment key={index}>
             <UserCard
@@ -59,28 +59,9 @@ function AboutSection() {
           </React.Fragment>
         ))}
       </Carousel>
-      <style jsx>{`
-        @media (max-width: 768px) {
-          .mx-auto {
-            margin-left: 0;
-            margin-right: 0;
-          }
-          .md:flex {
-            display: block;
-          }
-          .justify-evenly {
-            justify-content: center;
-          }
-          .items-center {
-            text-align: center;
-          }
-          .p-5 {
-            padding: 2rem;
-          }
-        }
-      `}</style>
     </div>
   );
 }
 
 export default AboutSection;
+

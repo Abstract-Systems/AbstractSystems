@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body>
         <Head>
           <title>Abstract Systems</title>
-          <link rel="shortcut icon" href="../public/images/favicon.ico" type="image/x-icon" />
+          <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <div className="container">
