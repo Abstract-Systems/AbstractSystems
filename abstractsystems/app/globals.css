@@ -25,6 +25,12 @@
   border-radius: 50%;
   filter: blur(200px);
 }
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
 .top-left {
   top: 0;

@@ -4,7 +4,6 @@ $color-gray: #9CA3AF;
 $color-black: #1F2937;
 $card-size: 24rem;
 
-
 .carousel {
   position: relative;
   width: $card-size;
@@ -65,11 +64,33 @@ $card-size: 24rem;
   border: unset;
   
   &.left {
-    transform: translateX(-100%) translatey(-50%);
+    transform: translateX(-100%) translateY(-50%);
   }
   
   &.right {
     right: 0;
-    transform: translateX(100%) translatey(-50%);
+    transform: translateX(100%) translateY(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  $card-size: 18rem;
+
+  .carousel {
+    width: $card-size;
+    height: $card-size;
+  }
+
+  .card {
+    padding: 1.5rem;
+    font-size: 1rem;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .nav {
+    font-size: 3rem;
   }
 }

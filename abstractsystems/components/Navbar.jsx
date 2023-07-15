@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='border-none h-16 bg-backgroun-secondary drop-shadow-lg fixed w-full z-20 top-0 left-0 border-b'>
+    <nav className='border-none h-16 bg-backgroun-secondary drop-shadow-lg fixed w-full z-20 top-0 left-0 border-b sticky'>
       <div className='max-w-screen-xl flex items-center justify-between mx-auto h-full'>
         <div className='flex-grow flex-shrink px-2 transition-opacity duration-300 flex items-center'>
           <a href='#'>
@@ -33,7 +33,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className='flex-grow flex-shrink px-2 transition-all duration-300 flex items-center justify-end'>
+        <div className='flex-grow flex-shrink px-2 transition-all duration-300 flex items-center justify-end '>
           <div className={`p-3 hidden md:flex md:w-auto transition-all duration-300 ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}>
             <ul className='flex list-none items-center space-x-6'>
               <li
