@@ -42,12 +42,12 @@ const Projectlayout = () => {
         <h1 className="text-white text-4xl font-bold text-center px-5 py-3 font-sarpanch">
             Projects
         </h1>
-        <p className='text-lg text-yellow-50 font-bold text-center px-5 py-3 font-barlow-condensed'>Discover the art of software craftsmanship in our project showcase. Abstract Systems</p>
+        <p className='text-lg text-yellow-50  font-normal text-center px-5 py-3 font-barlow-condensed'>Discover the art of software craftsmanship in our project showcase. Abstract Systems</p>
         <div className="w-full md:w-[70%]  p-10 bg-backgroun-primary rounded-l-lg">
-            <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md rounded-lg p-6 mb-5">
-                <div className="flex flex-col gap-8 mt-8">
+            <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md rounded-lg p-8 mb-5">
+                <div className="flex flex-col gap-8 mt-8 ">
                     {projects.map((project, index) => (
-                        <div key={index}>
+                        <div key={index} className='hover:scale-105'>
                             <Project
                                 projectnumber={project.projectnumber}
                                 title={project.title}

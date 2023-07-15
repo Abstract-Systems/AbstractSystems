@@ -35,7 +35,7 @@ const ServiceLayout = () => {
       <h1 className="text-white text-4xl font-bold text-center px-5 py-3 font-sarpanch">
         Services
       </h1>
-      <p className="py-5 w-[60%] text-center font-barlow-condensed text-xl">Explore our comprehensive range of website, mobile app, and software solutions, alongside expertly crafted UI/UX designs, tailored to exceed your expectations and elevate your digital presence. </p>
+      <p className="py-5 w-[60%] text-center font-barlow-condensed text-xl text-white">Explore our comprehensive range of website, mobile app, and software solutions, alongside expertly crafted UI/UX designs, tailored to exceed your expectations and elevate your digital presence. </p>
       <div className="w-full md:w-[50%] p-10 bg-backgroun-primary rounded-l-lg">
         <div className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-md rounded-lg p-6 mb-5 md:max-w">
           <div className="flex flex-wrap justify-center gap-8 mt-8 rounded-2xl items-center">

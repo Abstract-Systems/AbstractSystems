@@ -1,7 +1,6 @@
 import './globals.css'
 import HeroSection from '@components/HeroSection'
 import Head from 'next/head'
-import Link from 'next/link'
 import Footer from '@components/Footer'
 import ContactForm from '@components/ContactForm'
 import Navbar from '@components/Navbar'
