@@ -8,21 +8,33 @@ const users = [
     title: "Full Stack Dev",
     desc: "He is the only guy who uses malt (As a beer) and uses Code to protect himself from danger. Guy uses Dijkstra to find a path.",
     mail: "mujtaba@gmail.com",
-    img: "./images/mujtaba.png"
+    img: "./images/mujtaba.png",
+    linkedin:"https://www.linkedin.com/in/muhammad-mujtaba-890b7a261/",
+    twitter:"#",
+    github:"https://github.com/mujtaba-io",
+    instagram:"#"
   },
   {
     name: "Hasaan",
     title: "Designer & Front End Engineer",
     desc: "He is the only guy who uses malt (As a beer) and uses Code to protect himself from danger. Guy uses Dijkstra to find a path.",
     mail: "hasaan@gmail.com",
-    img: "./images/hasaan.jpg"
+    img: "./images/hasaan.jpg",
+    linkedin:"https://www.linkedin.com/in/hasaan-ahmad-94548816b/",
+    twitter:"#",
+    github:"https://github.com/HasaanAhmad",
+    instagram:"#"
   },
   {
     name: "Haider",
     title: "Designer & Front End Engineer",
     desc: "He is the only guy who uses malt (As a beer) and uses Code to protect himself from danger. Guy uses Dijkstra to find a path.",
     mail: "haider@gmail.com",
-    img: "./images/profile.png"
+    img: "./images/haider.jpg",
+    linkedin:"https://www.linkedin.com/in/muhammad-haider-sheikh-31541a185/",
+    twitter:"https://twitter.com/s67125466",
+    github:"https://github.com/Haider12212",
+    instagram:"#"
   }
 ];
 
@@ -39,6 +51,10 @@ function AboutSection() {
             desc={user.desc}
             mail={user.mail}
             img={user.img}
+            linkedin={user.linkedin}
+            twitter={user.twitter}
+            github={user.github}
+            instagram={user.instagram}
             />
         </React.Fragment>
       ))}

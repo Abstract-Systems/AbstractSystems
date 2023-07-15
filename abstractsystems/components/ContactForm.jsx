@@ -66,36 +66,36 @@ const ContactForm = () => {
 
 
   return (
-    <section className="bg-primary m-20">
+    <section className="bg-primary m-4 sm:m-8 mt-20">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <div className="flex items-center mb-4 flex-col ">
           <h2 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Us
           </h2>
-          <div className="flex ml-4 py-10">
+          <div className="flex mt-10 mb-4">
             <a
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
             >
-              <FaInstagram className='mx-10' size={50} />
+              <FaInstagram className='mx-4 sm:mx-2' size={40} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/orgs/Abstract-Systems/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
             >
-              <FaGithub className='mx-10' size={50} />
+              <FaGithub className='mx-4 sm:mx-2' size={40} />
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/company/abstract-systems-1/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
             >
-              <FaLinkedin className='mx-10' size={50} />
+              <FaLinkedin className='mx-4 sm:mx-2' size={40} />
             </a>
             <a
               href="https://www.facebook.com"
@@ -103,13 +103,13 @@ const ContactForm = () => {
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
             >
-              <FaFacebook className='mx-10' size={50} />
+              <FaFacebook className='mx-4 sm:mx-2' size={40} />
             </a>
           </div>
           <Modal visible={modalVisible} />
         </div>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl font-barlow-condensed">
-          Reach us on any of the following Social Media. Or Maybe leave a message down there.
+          Reach us on any of the following Social Media. Or maybe leave a message below.
         </p>
         <form action="#" ref={form} onSubmit={sendEmail} className="space-y-8">
           <div>
