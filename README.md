@@ -22,35 +22,30 @@ To get a local copy of the Abstract Systems web application up and running, plea
 
 1. Clone the repository to your local machine using the following command:
 
-git clone https://github.com/abstractsystems/abstract-systems.git
+`git clone https://github.com/Abstract-Systems/AbstractSystems`
 
 
 2. Navigate to the project directory:
 
-cd abstract-systems
+`cd abstract-systems`
 
 
 
 3. Install the required dependencies using either npm or yarn:
 
-npm install
-
-Copy code
+`npm install`
 
 or
 
-yarn install
-
-markdown
-Copy code
+`yarn install`
 
 4. Start the development server:
 
-npm run dev
+`npm run dev`
 
 or
 
-yarn dev
+`yarn dev`
 
 
 5. Open your web browser and visit `http://localhost:3000` to view the Abstract Systems web application.
