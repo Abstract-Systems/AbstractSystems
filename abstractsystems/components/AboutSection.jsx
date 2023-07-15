@@ -22,7 +22,7 @@ const users = [
     title: "Designer & Front End Engineer",
     desc: "He is the only guy who uses malt (As a beer) and uses Code to protect himself from danger. Guy uses Dijkstra to find a path.",
     mail: "haider@gmail.com",
-    img: "./images/profile.png"
+    img: "./images/haider.jpg"
   }
 ];
 
