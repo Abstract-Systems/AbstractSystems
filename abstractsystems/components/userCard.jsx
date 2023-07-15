@@ -19,16 +19,16 @@ const UserCard = (props) => {
           <span className="text-[#434343] ml-2">{props.mail}</span>
         </div>
         <div className="flex justify-end mt-4 space-x-2">
-          <a href="https://linkedin.com" target={props.linkedin} rel="noopener noreferrer">
+          <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
             <img src="./images/linkedin.png" alt="" className="w-6 h-6" />
           </a>
-          <a href="https://twitter.com" target={props.twitter} rel="noopener noreferrer">
+          <a href={props.twitter} target="_blank" rel="noopener noreferrer">
             <img src="./images/twitter.png" alt="" className="w-6 h-6" />
           </a>
-          <a href="https://github.com" target={props.github} rel="noopener noreferrer">
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
             <img src="./images/github.png" alt="" className="w-6 h-6" />
           </a>
-          <a href="https://instagram.com" target={props.instagram} rel="noopener noreferrer">
+          <a href={props.instagram} target="_blank" rel="noopener noreferrer">
             <img src="./images/insta.png" alt="" className="w-6 h-6" />
           </a>
         </div>

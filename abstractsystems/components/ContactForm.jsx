@@ -28,16 +28,16 @@ const ContactForm = () => {
               <FaInstagram className='mx-4 sm:mx-2' size={40} />
             </a>
             <a
-              href="https://github.com"
-              target="https://github.com/orgs/Abstract-Systems/"
+              href="https://github.com/orgs/Abstract-Systems/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
             >
               <FaGithub className='mx-4 sm:mx-2' size={40} />
             </a>
             <a
-              href="https://www.linkedin.com"
-              target="https://www.linkedin.com/company/abstract-systems-1/"
+              href="https://www.linkedin.com/company/abstract-systems-1/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 ml-2"
             >
