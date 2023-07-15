@@ -44,6 +44,12 @@
   position: absolute;
   bottom: 20px; /* Adjust the value as needed */
 }
+.hover-container {
+  opacity: 1;
+}
+.hover-container:hover {
+  opacity: 0.8;
+}
 
 body {
   color: rgb(var(--foreground-rgb));

@@ -63,7 +63,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className='px-2 transition-opacity duration-300' onClick={handleContactClick}>
+          <div className='px-2 transition-opacity duration-300 hover-container' onClick={handleContactClick}>
             <OldButton text='Contact US' />
           </div>
 
