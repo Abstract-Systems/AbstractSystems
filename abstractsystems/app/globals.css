@@ -37,7 +37,9 @@
   right: 0;
   background: radial-gradient(circle, #EBED77, #432CD1);
 }
-
+.animated-text {
+  min-height: 100px; /* adjust the value as needed */
+}
 
 body {
   color: rgb(var(--foreground-rgb));
