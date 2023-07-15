@@ -11,9 +11,10 @@ import Projectlayout from '@components/Projectlayout'
 
 
 export const metadata = {
+  
   title: 'Abstract Systems',
-  description: 'Abstract Systems',
-  image: './images/logo.png',
+  description: 'Abstract Systems- Software Solution',
+  Image: './images/favicon.ico',
 }
 export default function RootLayout({ children }) {
   return (
@@ -22,11 +23,7 @@ export default function RootLayout({ children }) {
       <body>
         <Head>
           <title>Abstract Systems</title>
-          
-          <Link rel="preconnect" href="https://fonts.gstatic.com"/>
-          <Link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-  
-          <Link rel="icon" href="./images/logo.png" />
+          <link rel="shortcut icon" href="../public/images/favicon.ico" type="image/x-icon" />
         </Head>
         <div>
       <Navbar />
