@@ -17,8 +17,8 @@ const users = [
   {
     name: "Hasaan",
     title: "Designer & Front End Engineer",
-    desc: "He is the only guy who uses malt (As a beer) and uses Code to protect himself from danger. Guy uses Dijkstra to find a path.",
-    mail: "hasaan@gmail.com",
+    desc: "Solves problem with O(P) complexity. Frontend And Creative team. Plays minecraft to kill time!",
+    mail: "hasaanahmad10023@gmail.com",
     img: "./images/hasaan.jpg",
     linkedin:"https://www.linkedin.com/in/hasaan-ahmad-94548816b/",
     twitter:"https://twitter.com/HasaanAhmad19",
