@@ -5,9 +5,9 @@ import { scroller } from 'react-scroll';
 
 const scrolldown = () => {
   scroller.scrollTo('serviceSection', {
-    duration: 800,
+    duration: 200,
     delay: 0,
-    smooth: 'easeInOutQuart',
+    smooth: 'smooth',
     offset: -50,
   });
 };
@@ -42,7 +42,7 @@ export default function HeroSection() {
               Our team is dedicated to transforming abstract ideas into tangible and innovative digital solutions that exceed your expectations.
             </p>
           </div>
-          <div className="fixed bottom-0 left-0 right-0 flex flex-col justify-center items-center mt-2 md:mt-auto">
+          <div className="fixed bottom-0 left-0 right-0 flex flex-col justify-center items-center mt-2 md:mt-auto scroll-container">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 animate-bounce text-pink-500"

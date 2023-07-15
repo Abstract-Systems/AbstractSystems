@@ -40,6 +40,10 @@
 .animated-text {
   min-height: 100px; /* adjust the value as needed */
 }
+.scroll-container {
+  position: absolute;
+  bottom: 20px; /* Adjust the value as needed */
+}
 
 body {
   color: rgb(var(--foreground-rgb));
