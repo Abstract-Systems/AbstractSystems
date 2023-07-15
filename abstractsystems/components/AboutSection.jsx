@@ -21,9 +21,9 @@ const users = [
     mail: "hasaan@gmail.com",
     img: "./images/hasaan.jpg",
     linkedin:"https://www.linkedin.com/in/hasaan-ahmad-94548816b/",
-    twitter:"#",
+    twitter:"https://twitter.com/HasaanAhmad19",
     github:"https://github.com/HasaanAhmad",
-    instagram:"#"
+    instagram:"https://www.instagram.com/geniussyco/"
   },
   {
     name: "Haider",
